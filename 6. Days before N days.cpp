@@ -3,7 +3,7 @@
 void utility(int d, int n)
 {
 
-    // write your code here
+    // write your code here.
     // jai ganesh
     int ans = (7 + (d - (n % 7))) % 7;
     cout << ans;
