@@ -16,6 +16,7 @@ public:
                     num[M[i][j]]++;
             }
         }
+
         int distinct_count = 0;
         for (auto i : num)
         {
