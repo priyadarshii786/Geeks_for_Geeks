@@ -9,7 +9,26 @@ class Solution
     string modify (string s)
     {
         //code here.
+        //jai ganesh
         return replace( s.begin(), s.end(), ' ', {} ), s;
+        
+        /*
+        
+        --------------------- Ailter ---------------------
+        
+         string str;
+       for(int i=0;i<s.size();i++){
+           if(s[i] == ' '){
+               continue;
+           }
+           else{
+               str.push_back(s[i]);
+           }
+       }
+       return str;
+       
+       
+       */
     }
 };
 
